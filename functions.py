@@ -238,8 +238,8 @@ def concatallsongs(dfhotconcat,dfnothotconcat,csvname):
     return df_allsongsconcat
 
 def get_cover(song_title):
-    result = sp.search(q=song_title, limit=1)
-    cover = result['tracks']['items'][1]['album']['images'][1]['url']
+    result = sp.search(q=song_title, limit=2)
+    cover = result['tracks']['items'][0]['album']['images'][0]['url']
     return cover
 
 def get_url(song_title):
