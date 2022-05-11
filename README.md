@@ -29,14 +29,14 @@
 4. scalers - Contains a fitted scaler stored in a pkl file.
 5. audiofeats - Contains audio features collected using a function defined in the `spotipy_api_webscrapper.ipynb` Notebook. 
 
-## Datasets:
+## Original Datasets:
 
--  `data/survey` - Raw dataset
--  `data/survey_updated` - Same Dataset, after being cleaned and processed.
+-  `data/hot100.csv` - Obtained through webscrapping this [website](https://www.billboard.com/charts/hot-100)
+-  `data/EvolutionPopUSA_MainData` - Obtained from [Kaggle](https://www.kaggle.com/).
 
 ## Acknowledgements:
 
-- Thanks to Kaggle [this link](https://www.kaggle.com/) the DataFrame of Classic Hits
+- Thanks to Kaggle [this link](https://www.kaggle.com/) the DataFrame of Classic Hits. Sadly enough I could not find again the exact link where I got the data from.
 - Thanks to Ignacio Soteras, my teacher from Ironhack for all the help during the process
 - Thanks to Maria Soriano for all the help with Streamlit
 
