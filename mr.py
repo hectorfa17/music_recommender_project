@@ -10,7 +10,7 @@ def mr():
     song = st.text_input('Input a song you like so we can recommend you something cool: ')
 
     if (song):
-        results = functions.get_audio_features_single(song)
+        results = get_audio_features_single(song)
         scaler = pickle.load(open("scalers/standardscaler.pickle","rb"))
         results_scaled = scaler.transform(results)
         results_scaled_df = pd.DataFrame(results_scaled, columns = results.columns)
