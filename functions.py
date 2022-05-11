@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 import requests
 import os
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
 
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id= client_id,

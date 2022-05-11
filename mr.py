@@ -1,11 +1,4 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-import pickle
-import config
-import spotipy
-from sklearn.preprocessing import StandardScaler
-from spotipy.oauth2 import SpotifyClientCredentials
 from functions import *
 
 hot100_m14k = pd.read_csv('data/dfmodels/hot100_m14k.csv')

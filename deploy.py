@@ -11,8 +11,8 @@ import streamlit as st
 # User module files:
 
 from mr import *
-import functions
-from sklearn.preprocessing import StandardScaler
+from functions import *
+
 
 def main():
 
