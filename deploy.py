@@ -10,7 +10,7 @@ import streamlit as st
 
 # User module files:
 
-import mr
+from mr import *
 import functions
 
 def main():
@@ -40,9 +40,9 @@ def main():
     with col2:
       st.image('images/logo.png')
       st.write("## Your music recommender")
-                 
-      
 
+    mr()
+                 
   with c2:
       
       st.write('\n\n')
