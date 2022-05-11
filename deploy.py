@@ -27,10 +27,10 @@ def main():
 
 #Song covers:
 
-  cover1 = functions.get_cover('Stone Temple Pilots')
-  cover2 = functions.get_cover('Chris Cornell')
-  cover3 = functions.get_cover('Deep Purple')
-  cover4 = functions.get_cover('Creedence Clearwater Revival')
+  cover1 = get_cover('Stone Temple Pilots')
+  cover2 = get_cover('Chris Cornell')
+  cover3 = get_cover('Deep Purple')
+  cover4 = get_cover('Creedence Clearwater Revival')
   
     #############  
     # Main page #
