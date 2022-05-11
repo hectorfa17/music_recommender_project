@@ -2,13 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from config import *
+import config
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
-from functions import *
+import functions
 
-hot100_m14k = pd.read_csv('/Users/Hector_Martin/Documents/Labs/music_recommender_project/data/dfmodels/hot100_m14k.csv')
-nothot_m14k = pd.read_csv('/Users/Hector_Martin/Documents/Labs/music_recommender_project/data/dfmodels/nothot_m14k.csv')
+hot100_m14k = pd.read_csv('music_recommender_project/data/dfmodels/hot100_m14k.csv')
+nothot_m14k = pd.read_csv('music_recommender_project/data/dfmodels/nothot_m14k.csv')
 
 
 def mr():

@@ -10,7 +10,7 @@ import streamlit as st
 
 # User module files:
 
-from mr import *
+import mr
 import functions
 
 def main():
@@ -38,7 +38,7 @@ def main():
     col1, col2, col3 = st.columns(3)
 
     with col2:
-      st.image('/Users/Hector_Martin/Documents/Labs/music_recommender_project/images/logo.png')
+      st.image('music_recommender_project/images/logo.png')
       st.write("## Your music recommender")
       mr()            
       
