@@ -4,8 +4,9 @@ import numpy as np
 import pickle
 import config
 import spotipy
+from sklearn.preprocessing import StandardScaler
 from spotipy.oauth2 import SpotifyClientCredentials
-import functions
+from functions import *
 
 hot100_m14k = pd.read_csv('data/dfmodels/hot100_m14k.csv')
 nothot_m14k = pd.read_csv('data/dfmodels/nothot_m14k.csv')

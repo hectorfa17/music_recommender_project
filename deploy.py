@@ -12,6 +12,7 @@ import streamlit as st
 
 from mr import *
 import functions
+from sklearn.preprocessing import StandardScaler
 
 def main():
 
