@@ -38,7 +38,7 @@ def main():
     col1, col2, col3 = st.columns(3)
 
     with col2:
-      st.image('music_recommender_project/images/logo.png')
+      st.image('images/logo.png')
       st.write("## Your music recommender")
       mr()            
       
