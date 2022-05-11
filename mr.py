@@ -37,4 +37,6 @@ def mr():
             st.write('From: ',nothot_m14k['artists'][recommendation].values[0])
             st.write('Spotify link: ', get_url(nothot_m14k['songs'][recommendation].values[0]))
             st.image(get_cover(nothot_m14k['songs'][recommendation].values[0]))
+
+mr() 
         

@@ -40,7 +40,7 @@ def main():
     with col2:
       st.image('images/logo.png')
       st.write("## Your music recommender")
-      mr()            
+                 
       
 
   with c2:
