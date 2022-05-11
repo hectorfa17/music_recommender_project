@@ -15,6 +15,8 @@ import functions
 
 def main():
 
+  st.set_page_config(layout="wide")
+
 #Containers:
 
   c1 = st.container()
