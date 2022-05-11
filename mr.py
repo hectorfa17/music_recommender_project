@@ -7,8 +7,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import functions
 
-hot100_m14k = pd.read_csv('music_recommender_project/data/dfmodels/hot100_m14k.csv')
-nothot_m14k = pd.read_csv('music_recommender_project/data/dfmodels/nothot_m14k.csv')
+hot100_m14k = pd.read_csv('data/dfmodels/hot100_m14k.csv')
+nothot_m14k = pd.read_csv('data/dfmodels/nothot_m14k.csv')
 
 
 def mr():
